@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hazard_perception_app/precache-manifest.dc7503743e2379f949e3db651aa5e804.js"
+  "/hazard_perception_app/precache-manifest.34f13f26aee73fcc3f8591fd8305267f.js"
 );
 
 self.addEventListener('message', (event) => {
