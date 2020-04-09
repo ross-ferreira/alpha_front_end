@@ -4,7 +4,7 @@ import React, { Fragment } from "react";
 //   Route,
 // } from "react-router-dom";
 
-import { Router,Route } from "react-router-dom";
+import { HashRouter as Router, Route,Switch } from "react-router-dom";
 
 
 import Header from "../Components/Header";
