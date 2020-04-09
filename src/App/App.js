@@ -22,7 +22,7 @@ class App extends React.Component{
   }
   render(){
     let {loaded}= this.props
-    return !loaded?<p>Loading</p> : (
+    return  (
       <Router history={ history }>
       <Fragment>
         <Route exact path="/">
@@ -43,3 +43,5 @@ class App extends React.Component{
 }
 
 export default App;
+
+// !loaded?<p>Loading</p> :
