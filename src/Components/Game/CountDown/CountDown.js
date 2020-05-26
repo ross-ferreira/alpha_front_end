@@ -60,7 +60,7 @@ class CountDown extends Component {
     let timer= this.state.seconds;
     let warning = (timer <= 5 ? { color: 'red' } : { color: 'rgb(246, 170, 25)' });
     this.timeExpired();
-    console.log(this.props);
+    // console.log(this.props);
 
     return(
       <div>

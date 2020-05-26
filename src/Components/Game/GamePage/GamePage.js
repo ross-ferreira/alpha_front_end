@@ -14,22 +14,23 @@ const Gamepage = ({ handleIncrement, srcImage, style, counter }) => {
             <div className="gallery">
                 <section >
                     <figure className="photo">
-
                         <picture className="img-container">
-                            <img src={srcImage} alt="stockimage" />
+                            <img className="game-img" src={srcImage} alt="stockimage" />
                         </picture>
-                        {counter === 10 ? <Link to="/scores">
-                            <div
-                                style={style}
-                                className="hidden-div"
-                            >
-                            </div>
-                        </Link> : <div
+                        {counter === 10 ? 
+                            <Link to="/scores">
+                                <div
+                                    style={style}
+                                    className="hidden-div"
+                                >
+                                </div>
+                            </Link>: 
+                        <div
                             onClick={handleIncrement}
                             style={style}
                             className="hidden-div"
                         >
-                            </div>}
+                        </div>}
                     </figure>
 
                 </section>

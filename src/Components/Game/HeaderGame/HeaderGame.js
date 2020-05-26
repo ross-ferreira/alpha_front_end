@@ -11,10 +11,6 @@ const Header = ({ counter, handleIncrement }) => {
 
                     <p className="main-title">{counter}/10</p>
                 </div>
-
-                {/* <div className="countdown-div">
-                    <h2 className="countdown">0:30</h2>
-                </div> */}
                 <div className="countdown-div">
                      <CountDown/>
                     </div>

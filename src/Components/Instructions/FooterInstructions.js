@@ -6,8 +6,8 @@ const FooterInstructions = () => {
 
     return(
 
-      <footer class="main-footer">
-      <p>	&#169;Group Alpha, 2020 </p>	
+      <footer className="main-footer">
+      <p>	&#169; Designed By - Ross Ferreira - 2020</p>	
       </footer> 
 
 

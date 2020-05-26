@@ -17,7 +17,7 @@ const FooterGame = ({ handleIncrement, counter }) => {
           :
           <button type="button" className="skip-button" onClick={handleIncrement}>Skip Round</button>
         }
-        <p className="card-footer">	&#169;Group Alpha, 2020 </p>	
+        <p className="card-footer">	&#169; Designed By - Ross Ferreira - 2020</p>	
       </div>
     </>
   )
