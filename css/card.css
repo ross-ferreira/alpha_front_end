@@ -8,6 +8,15 @@ body {
     max-width: 1200px;
     /* margin: 10px auto; */
 }
+.text-box{
+    max-width: 425px;
+}
+.text{
+    text-align: left;
+}
+.difficulty-list{
+    text-align: left;
+}
 
 .find-gallery {
     width: 60%;
@@ -17,9 +26,14 @@ body {
 
 }
 
-/* .photo {
-    position: relative;
-} */
+.intro-text {
+    /* margin: 20px auto; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items:center;
+    }
+
 
 .photo img {
     width: 100%;
@@ -27,12 +41,10 @@ body {
     display: block;
     /* margin: 10px auto; */
 }
-
-/* .photo-main img {
-
-    width: 50%;
-    height: 50%;
-} */
+.game-img{
+    max-width: 800px;
+    margin: 0px auto;
+}
 
 .first-page {
 margin-top: 40px;
@@ -40,8 +52,10 @@ margin-top: 40px;
 
 .next {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    /* margin: 10px auto; */
+    margin: 10px auto;
     /* background-color: rgb(252, 15, 3) */
 }
 
@@ -62,8 +76,75 @@ margin-top: 40px;
     /* margin: 10px auto; */
 
 }
-
-.intro-text {
-margin: 40px 0px 0px 50px;
-width: 50%;
+.finish-img {
+    max-width: 500px;
+    margin: 0px auto;
 }
+
+
+@media screen and (max-width: 760px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    .begin-button, .skip-button {
+        font-size:10px;
+        font-weight:bold;
+        padding:10px 15px;
+    }
+    .first-page{
+        max-width: 300px;
+    }
+    .text,.form-check-label {
+        font-size: 0.75em;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .progress {
+        margin-left: 50px;
+    }
+    .countdown,.main-title {
+        font-size: 20px;
+    }
+    .next {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 10px auto;
+        align-items: center;
+
+    }
+
+    .text{
+        min-width: 300px;
+    }
+    .first-page{
+        max-width: 200px;
+    }
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    .score-text{
+        font-size: 12px;
+    }
+
+  }
+
+
+
+
+
+
+
+
